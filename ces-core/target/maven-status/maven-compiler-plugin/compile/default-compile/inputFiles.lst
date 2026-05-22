@@ -1,0 +1,7 @@
+/Users/liangalong/Desktop/ces-demo/ces-core/src/main/java/com/liangalong/ces/core/model/Task.java
+/Users/liangalong/Desktop/ces-demo/ces-core/src/main/java/com/liangalong/ces/core/config/WESConfig.java
+/Users/liangalong/Desktop/ces-demo/ces-core/src/main/java/com/liangalong/ces/core/model/TaskStatus.java
+/Users/liangalong/Desktop/ces-demo/ces-core/src/main/java/com/liangalong/ces/core/model/TaskPriority.java
+/Users/liangalong/Desktop/ces-demo/ces-core/src/main/java/com/liangalong/ces/core/model/Worker.java
+/Users/liangalong/Desktop/ces-demo/ces-core/src/main/java/com/liangalong/ces/core/config/RedisConfig.java
+/Users/liangalong/Desktop/ces-demo/ces-core/src/main/java/com/liangalong/ces/core/scheduler/TaskSchedulerEngine.java
