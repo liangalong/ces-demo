@@ -1,0 +1,45 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.liangalong</groupId>
+    <artifactId>ces-demo</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+    <name>CES Demo - 仓储执行系统任务调度模拟器</name>
+    <description>WES (Warehouse Execution System) 任务调度引擎模拟器，展示分布式仓储自动化核心调度逻辑</description>
+
+    <modules>
+        <module>ces-core</module>
+        <module>ces-api</module>
+        <module>ces-demo-web</module>
+    </modules>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.2.5</version>
+        <relativePath/>
+    </parent>
+
+    <properties>
+        <java.version>17</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.liangalong</groupId>
+                <artifactId>ces-core</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.liangalong</groupId>
+                <artifactId>ces-api</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+</project>
