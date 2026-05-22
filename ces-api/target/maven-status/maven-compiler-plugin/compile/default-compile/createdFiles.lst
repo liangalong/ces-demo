@@ -1,6 +1,0 @@
-com/liangalong/ces/api/dto/DispatchSnapshot.class
-com/liangalong/ces/api/dto/DispatchSnapshot$TaskVO.class
-com/liangalong/ces/api/websocket/WebSocketConfig.class
-com/liangalong/ces/api/dto/DispatchSnapshot$WorkerVO.class
-com/liangalong/ces/api/websocket/DispatchWebSocketHandler.class
-com/liangalong/ces/api/controller/WESController.class
